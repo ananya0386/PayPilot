@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+functions/node_modules/
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+
+# Environment and secrets (never commit these)
+.env
+.env.*
+!.env.example
+*.pem
+serviceAccount*.json
+*-service-account*.json
+functions/.env*
+functions/.runtimeconfig.json
+
+# Firebase CLI and emulators
+.firebase/
+firebase-debug.log
+firebase-debug.*.log
+firestore-debug.log
+ui-debug.log
+pubsub-debug.log
+emulator-data/
+
+# Misc
+*.log
+.DS_Store
+Thumbs.db
